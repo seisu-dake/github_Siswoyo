@@ -19,3 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [HomeController::class, 'index']);
+Route::get('/home/contact', [HomeController::class, 'Contact']);
+Route::get('/home/artikel', [HomeController::class, 'Artikel']);
